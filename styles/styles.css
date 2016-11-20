@@ -1,0 +1,79 @@
+body {
+  /* Set the font family to Helvetica, Arial, sans-serif */
+  font-family: Helvetica, Arial, sans-serif;
+ 
+  /* Set the line-height to 1.5 */
+  line-height: 1.5;
+ 
+  /*
+    Set the background color to #ebeef0 or a colour of your choosing
+    To find colours, you can visit this website: http://www.w3schools.com/colors/colors_names.asp
+  */
+  background-color: #ebeef0;
+ 
+  /* Set the font color to #30373b or a colour of your choosing */
+  color: #30373b;
+}
+
+h1 {
+  /* Set the font color to #7ab55c or a color of your choosing */
+  color: #7ab55c;
+ 
+  /* Add a bottom border that's 5px wide, solid, and black */
+  border-bottom: 5px solid black;
+}
+
+h2 {
+  /* Set the font color to #329cda or a color of your choosing */
+  color: #329cda;
+}
+
+main {
+  /* Set the maximum width of your design to 750px wide */
+  max-width: 750px;
+ 
+  /* Set the margin value to be automatically calculated on all sides */
+  margin: auto;
+}
+
+img {
+  /* Set the width of the image to span 100% wide across its parent container */
+  width: 100%;
+  
+  /*
+    Come back to this after the footer:
+    Designing mobile first, let's hide the image for smaller screen sizes
+  */
+  display: none;
+}
+
+footer {
+  /* Set the top margin to be 120px away */
+  margin-top: 120px;
+  
+  /* Center align the text */
+  text-align: center;
+
+  /* Set the background color to #30373b or a color of your choosing */
+  background-color: #30373b;
+
+  /* Set the font color to be white (or try #ffffff ... do you see a difference?)*/
+  color: white;
+
+  /* Set the padding to 20px on all sides */
+  padding: 20px;
+}
+
+/* When the screen is 500px OR wider, apply the follwoing style rules */
+@media screen and (min-width: 500px) {
+
+  body {
+    /* Change the background-color of the body to white */
+    background-color: white;
+  }
+
+  img {
+    /* Show the image again, set the display value to block */
+    display: block;
+  }
+}
